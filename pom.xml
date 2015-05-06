@@ -18,7 +18,7 @@
         <version>1.567</version>
     </parent>
 
-    <artifactId>slack</artifactId>
+    <artifactId>grove</artifactId>
     <packaging>hpi</packaging>
     <version>1.8-SNAPSHOT</version>
     <name>Slack Notification Plugin</name>
@@ -38,9 +38,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/jenkinsci/slack-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/slack-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/slack-plugin</url>
+        <connection>scm:git:ssh://git@github.com/josephtate/grove-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/josephtate/grove-plugin.git</developerConnection>
+        <url>https://github.com/josephtate/grove-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -119,29 +119,11 @@
 
     <developers>
         <developer>
-            <id>grantmd</id>
-            <name>Myles Grant</name>
-            <email>myles@tinyspeck.com</email>
+            <id>josephtate</id>
+            <name>Joseph Tate</name>
+            <email>jtate@dragonstrider.com</email>
             <roles>
                 <role>author</role>
-            </roles>
-        </developer>
-        <developer>
-            <id>sag47</id>
-            <name>Sam Gleske</name>
-            <email>sam.mxracer@gmail.com</email>
-            <url>https://github.com/samrocketman</url>
-            <roles>
-                <role>maintainer</role>
-            </roles>
-            <timezone>America/New_York</timezone>
-        </developer>
-        <developer>
-            <id>peergum</id>
-            <name>Phil Hilger</name>
-            <email>phil@peergum.com</email>
-            <roles>
-                <role>collaborator</role>
             </roles>
         </developer>
     </developers>
